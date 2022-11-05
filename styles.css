@@ -5,15 +5,7 @@
 body {
     margin: 0px;
     padding: 0px;
-}   
-    .img-googleplay {
-        width:200px;
-        height:100px;
-        background-image: url(play.jpg);
-        background-size: cover
-        background-repeat: no-repeat;
-    }
-
+}  
 
 .background {
     width: 100%;
