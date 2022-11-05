@@ -5,8 +5,15 @@
 body {
     margin: 0px;
     padding: 0px;
+}   
+    .img-googleplay {
+        width:200px;
+        height:100px;
+        backroung-image: url(play.png);
+        backround-size: 50%
+        background-repeat: no-repeat;
+    }
 
-}
 
 .background {
     width: 100%;
