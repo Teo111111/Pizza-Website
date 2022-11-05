@@ -9,8 +9,8 @@ body {
     .img-googleplay {
         width:200px;
         height:100px;
-        background-image: url(play.png);
-        background-size: 50%
+        background-image: url(play.jpg);
+        background-size: cover
         background-repeat: no-repeat;
     }
 
