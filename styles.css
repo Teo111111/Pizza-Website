@@ -203,3 +203,21 @@ section .main_btn:hover i{
 .meniu .meniu_box .meniu_card .meniu_image:hover img{
     transform: scale(1.1);
 }
+
+.meniu .meniu_box .meniu_card .small_card{
+    width: 45px;
+    height: 45px;
+    float: right;
+    position: relative;
+    top: -240px;
+    right: -8px;
+    opacity: 0;
+    border-radius: 7px;
+}
+
+.meniu .meniu_box .meniu_card:hover .small_card{
+    position: relative;
+    top: -240px;
+    right: 20px;
+    opacity: 1;
+}
