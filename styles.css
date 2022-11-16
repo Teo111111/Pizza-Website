@@ -213,6 +213,7 @@ section .main_btn:hover i{
     right: -8px;
     opacity: 0;
     border-radius: 7px;
+    transition: 0.3s;
 }
 
 .meniu .meniu_box .meniu_card:hover .small_card{
@@ -220,4 +221,58 @@ section .main_btn:hover i{
     top: -240px;
     right: 20px;
     opacity: 1;
+}
+
+
+.meniu .meniu_box .meniu_card .small_card i{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 140px;
+    color: #000;
+    cursor: pointer;
+    text-shadow: 0 0 6px #000;
+    transition: 0.2s;
+}
+
+.meniu .meniu_box .meniu_card .small_card i:hover{
+    color: #fac031;
+}
+
+.meniu .meniu_box .meniu_card .meniu_info h2{
+    width: 60%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-size: 25px;
+    color: #fac031;
+}
+
+.meniu .meniu_box .meniu_card .meniu_info p{
+    text-align: center;
+    margin-top: 8px;
+    line-height: 21px;
+}
+
+.meniu .meniu_box .meniu_card .meniu_info h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.meniu .meniu_box .meniu_card .meniu_info .meniu_icon{
+    color: #fac031;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.meniu .meniu_box .meniu_card .meniu_info .menu_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background: #000;
+    padding: 8px 10px;
+    margin: 0 80px;
+    transition: 0.3s;
 }
